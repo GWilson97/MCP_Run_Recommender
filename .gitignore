@@ -13,3 +13,4 @@ wheels/
 
 # Credentials
 strava_tokens.json
+.DS_Store

@@ -62,7 +62,7 @@ async def _fetch_workout_data(days: int = 31) -> dict:
 # Ask Server to get recent workouts 
 @app.tool()
 async def get_recent_workouts(days: int = 31) -> PrefabApp:
-    """Get user workoutsa for the last N days."""
+    """Get user workouts for the last N days."""
     # How far back to retrieve workouts
 
     current_timestamp = int(time.time())
